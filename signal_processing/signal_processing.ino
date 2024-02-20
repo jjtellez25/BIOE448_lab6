@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   // collect pulse signal and print
   pulse_signal = analogRead(sensor_pin);
-  Serial.println(pulse_signal);
+  //Serial.println(pulse_signal);
 
   // adding checkpoint
   delay(100);
